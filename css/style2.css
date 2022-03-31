@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    /* background-image: url(/taller3/img/image-header.jpg); */
+    background-image: url(/img/image-header.jpg);
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: -110px;
+}
+
+nav{
+    display: flex;
+}
+
+.header__titulo h2{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.header__menu{
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.header__logo img{
+    margin-top: 40px;
+}
+
+.header__flecha{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+.item--color:hover {
+    transition: .4s;
+    border-radius: 50px;
+    /* text-transform: uppercase; */
+    text-align: center;
+    cursor: pointer;
+    background:#04a8f9;
+}
+
+.item--color:active{
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.menu__item{
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.item{
+    text-align: center;
+    padding: 20px 0 20px;
+    width: 150px;
+}
+
+main{
+    flex-wrap: wrap;
+}
+
+.main__seccion{
+    min-width: 1180px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main__seccion img{
+    width: 50%;
+}
+
+.seccion,
+.seccion__img{
+    min-width: 590;
+    width: 50%;
+    height: 100%;
+}
+
+.seccion__img img{
+    width: 100%;
+    height: 100%;
+}
+.seccion__item{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tamaño{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.seccion__parrafo{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+}
+
+.seccion_link{
+    padding-left: 5px;
+    border-bottom: 10px solid yellow;
+    width: 120px;
+}
+
+.link{
+    width: 150px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.main__seccionGraphic,
+.main__seccionPhotography{
+    /* background-image: url(/taller3/img/image-graphic-design.jpg); */
+    background-image: url(/img/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    height: 702px;
+    text-align: center;
+    min-width: 590px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Graphic{
+    width: 50%;
+}
+
+.main__seccionPhotography{
+    /* background-image: url(/taller3/img/image-photography.jpg); */
+    background-image: url(/img/image-photography.jpg);
+}
+
+
+.main__seccionIndividual{
+    display: flex;
+}
+
+.transparencia{
+    opacity: 0.7;
+}
+
+.main__seccionTestimonio{
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    margin: 100px auto;
+}
+
+.seccion5__testimonio{
+    padding: 0 50px;
+    text-align: center;
+
+}
+
+.testimonio__img{
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    background: blue;
+    overflow: hidden;
+}
+
+.seccion5__parrafo{
+    font-family: 'Barlow', sans-serif;
+    margin: 80px 0;
+    font-size: 20px;
+}
+
+.seccion5__parrafo--color{
+    opacity: 0.7;
+    margin-top: -40px;
+}
+
+.seccion5__titulo{
+    text-align: center;
+}
+
+.titulo__testimonio{
+    letter-spacing: 8px;
+    font-family: 'Fraunces', serif;
+    color: grey;
+    font-weight: bold;
+}
+.seccion5__cartas{
+    display: flex;
+}
+
+.main__seccionImagenes{
+    display: flex;
+}
+
+.seccion6__img{
+    width: 25%;
+}
+
+.seccion6__img img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+    background: rgb(132, 203, 187);
+}
+
+.footer__img{
+    width: 500px;
+    padding: 20px 0 40px;
+    margin: 0 auto;
+}
+
+.footer__img img{
+    width: 200px;
+}
+
+.footer__link{
+    margin-bottom: 100px;
+}
+
+.link_footer{
+    margin: 0 40px 40px;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: #2c7566;
+}
+
+.link_footer:hover{
+    color: white;
+}
+
+.footer__icons{
+    margin-bottom: 20px;
+}
+.icons {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #2c7566;
+}
+
+.icons:hover{
+    color: white;
+}
+
+
+
